@@ -112,7 +112,7 @@
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/hwn.jpg"
-    }
+    },
     {
       "artist": "Shawn Wayne",
       "title": "depth",
@@ -139,7 +139,7 @@
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/df2.jpg"
-    }
+    },
     {
       "artist": "dumpboii",
       "title": "taliband swagg",
@@ -166,7 +166,7 @@
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/ltwr.jpg"
-    }
+    },
     {
       "artist": "Yung Rollin",
       "title": "THE GOAT",
@@ -211,7 +211,7 @@
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/HYPERION.jpg"
-    }
+    },
     {
       "artist": "inferno",
       "title": "runaway",
@@ -265,7 +265,7 @@
       "peak": 1,
       "weeksAt1": 3,
       "cover": "covers/ladis.jpg"
-    }
+    },
     {
       "artist": "2SMILEY",
       "title": "STUCK IN THE CENTER",
@@ -367,4 +367,5 @@
     }
   ]
 }
+
 
