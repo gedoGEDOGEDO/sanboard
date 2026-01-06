@@ -8,7 +8,7 @@
       "sales": 55000,
       "weeks": 6,
       "peak": 1,
-      "weeksAt1": 6
+      "weeksAt1": 6,
       "cover": "covers/decay.png"
     },
     {
@@ -17,7 +17,7 @@
       "sales": 40000,
       "weeks": 8,
       "peak": 1,
-      "weeksAt1": 5
+      "weeksAt1": 5,
       "cover": "covers/afterhours.jpg"
     },
     {
@@ -26,7 +26,7 @@
       "sales": 32000,
       "weeks": 10,
       "peak": 1,
-      "weeksAt1": 5
+      "weeksAt1": 5,
       "cover": "covers/endersly.png"
     },
     {
@@ -35,7 +35,7 @@
       "sales": 27000,
       "weeks": 20,
       "peak": 1,
-      "weeksAt1": 7
+      "weeksAt1": 7,
       "cover": "covers/crash.jpg"
     },
     {
@@ -44,7 +44,7 @@
       "sales": 1000,
       "weeks": 18,
       "peak": 6,
-      "weeksAt1": 0
+      "weeksAt1": 0,
       "cover": "covers/faceup.jpg"
     },
     {
@@ -53,7 +53,7 @@
       "sales": 35000,
       "weeks": 9,
       "peak": 1,
-      "weeksAt1": 5
+      "weeksAt1": 5,
       "cover": "covers/missu.png"
     },
     {
@@ -62,7 +62,7 @@
       "sales": 30000,
       "weeks": 14,
       "peak": 1,
-      "weeksAt1": 5
+      "weeksAt1": 5,
       "cover": "covers/hurtme.png"
     },
     {
@@ -71,7 +71,7 @@
       "sales": 8000,
       "weeks": 30,
       "peak": 1,
-      "weeksAt1": 8
+      "weeksAt1": 8,
       "cover": "covers/yourname.jpg"
     },
     {
@@ -80,7 +80,7 @@
       "sales": 2000,
       "weeks": 1,
       "peak": 9,
-      "weeksAt1": 0
+      "weeksAt1": 0,
       "cover": "covers/humble.jpg"
     },
     {
@@ -89,7 +89,7 @@
       "sales": 4000,
       "weeks": 2,
       "peak": 8,
-      "weeksAt1": 0
+      "weeksAt1": 0,
       "cover": "covers/twoyears.jpg"
     }
   ],
@@ -101,11 +101,12 @@
       "sales": 1600000,
       "weeks": 10,
       "peak": 1,
-      "weeksAt1": 6
+      "weeksAt1": 6,
       "cover": "covers/twoyears.jpg"
     }
   ]
 }
+
 
 
 
