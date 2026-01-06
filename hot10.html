@@ -1,45 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Sanboard Hot 10</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Sanboard Chart</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="hero">
+<div class="hero small">
   <h1>SANBOARD</h1>
-  <p>Sanboard Hot 10 — Official Music Chart of Gambit RP</p>
-  <div class="hero-buttons">
-    <a href="index.html">Back to Home</a>
-    <a href="global30.html">View Global 30</a>
-  </div>
+  <p>Official Music Chart</p>
 </div>
 
-<section class="chart-section">
-  <h2>Hot 10 Albums</h2>
-  <div class="table-container">
-    <table class="chart-table">
-      <thead>
-        <tr>
-          <th>#</th>
-          <th>Артист</th>
-          <th>Сингл</th>
-          <th>Недель</th>
-          <th>Пик</th>
-          <th>№1</th>
-        </tr>
-      </thead>
-      <tbody id="chart" data-type="singles">
-        <!-- Данные из script.js -->
-      </tbody>
-    </table>
-  </div>
+<section class="chart-wrapper">
+  <div id="chart" data-type="singles"></div> 
 </section>
 
-<footer>
-  © 2026 Sanboard Magazine
-</footer>
+<footer>© 2026 Sanboard Magazine</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
