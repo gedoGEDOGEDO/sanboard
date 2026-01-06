@@ -79,3 +79,63 @@ footer {
   background: #000;
   color: #777;
 }
+
+.hero.small {
+  height: 40vh;
+}
+
+.chart-wrapper {
+  padding: 60px 12%;
+}
+
+.chart-card {
+  display: grid;
+  grid-template-columns: 60px 90px 1fr 220px;
+  align-items: center;
+  background: #111;
+  border-radius: 16px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.chart-rank {
+  font-size: 32px;
+  font-weight: bold;
+  color: #f1c40f;
+  text-align: center;
+}
+
+.chart-cover {
+  width: 70px;
+  height: 70px;
+  background: #333;
+  border-radius: 8px;
+}
+
+.chart-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chart-artist {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.chart-stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.chart-stats div {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.chart-stats span {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
