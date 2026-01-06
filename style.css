@@ -55,7 +55,8 @@ body {
 }
 
 .card {
-  background: #111;
+  background: linear-gradient(145deg, #151515, #0d0d0d);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.6);
   border-radius: 15px;
   padding: 30px;
   text-align: center;
@@ -74,7 +75,8 @@ body {
 }
 
 .feature {
-  background: #111;
+  background: linear-gradient(145deg, #151515, #0d0d0d);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   padding: 20px 30px;
   border-radius: 12px;
 }
@@ -152,5 +154,18 @@ footer {
   border-radius: 8px;
 }
 
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #f1c40f, transparent);
+  margin: 60px 10%;
+}
+
+.card, .feature {
+  transition: 0.3s ease;
+}
+
+.card:hover, .feature:hover {
+  transform: translateY(-6px);
+}
 
 
