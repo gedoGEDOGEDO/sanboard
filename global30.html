@@ -1,32 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Sanboard Chart</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
+<div class="hero small">
   <h1>SANBOARD</h1>
-</header>
+  <p>Official Music Chart</p>
+</div>
 
-<nav>
-  <a href="index.html">Главная</a>
-  <a href="hot10.html">Sanboard Hot 10</a>
-  <a href="global30.html">Sanboard Global 30</a>
-</nav>
+<section class="chart-wrapper">
+  <div id="chart" data-type="albums"></div>
+</section>
 
-<h1>Sanboard Global 30</h1>
-
-<table>
-<thead>
-<tr>
-<th>#</th><th>Артист</th><th>Альбом</th><th>Недель</th><th>Пик</th><th>№1</th>
-</tr>
-</thead>
-<tbody id="chart" data-type="albums"></tbody>
-</table>
+<footer>© 2026 Sanboard Magazine</footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
