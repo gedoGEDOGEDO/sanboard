@@ -168,4 +168,15 @@ footer {
   transform: translateY(-6px);
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(241,196,15,0.04), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(255,255,255,0.03), transparent 40%);
+  pointer-events: none;
+  z-index: -1;
+}
+
 
