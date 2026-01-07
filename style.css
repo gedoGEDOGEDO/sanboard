@@ -71,7 +71,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 40px;
+  padding: 60px 10%;
 }
 
 .feature {
@@ -79,6 +79,9 @@ body {
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
   padding: 20px 30px;
   border-radius: 12px;
+  min-width: 200px;
+  text-align: center;
+  font-size: 16px;
 }
 
 footer {
@@ -179,4 +182,37 @@ body::after {
   z-index: -1;
 }
 
+.music-strip {
+  height: 120px;
+  margin: 40px 10%;
+  background:
+    linear-gradient(to right, transparent, rgba(241,196,15,0.15), transparent),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255,255,255,0.05) 0px,
+      rgba(255,255,255,0.05) 2px,
+      transparent 2px,
+      transparent 6px
+    );
+  border-radius: 20px;
+}
+
+.records {
+  position: relative;
+  overflow: hidden;
+}
+
+.records::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at center, rgba(241,196,15,0.06), transparent 70%);
+  z-index: 0;
+}
+
+.records * {
+  position: relative;
+  z-index: 1;
+}
 
