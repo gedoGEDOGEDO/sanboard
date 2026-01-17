@@ -35,5 +35,34 @@ fetch("data.json")
 
       list.appendChild(card);
     });
-  });
+  }
+    const artistsList = document.getElementById("artists");
 
+    if (artistsList) {
+      let artists = data.artists;
+
+      artists.sort((a, b) => b.listeners - a.listeners);
+
+      artists.forEach((artist, index) => {
+        const place = index + 1;
+
+        const card = document.createElement("div");
+        card.className = "artist-card";
+
+        card.innerHTML = `
+          <div class="artist-avatar">
+            <img src="${artist.avatar}" alt="${artist.name}">
+          </div>
+
+          <div class="artist-info">
+            <div class="artist-name">${artist.name}</div>
+            <div class="artist-rank">#${place} в топе артистов</div>
+            <div class="artist-listeners">${artist.listeners} слушателей / мес</div>
+          </div>
+        `;
+
+        artistsList.appendChild(card);
+      });
+    }
+
+  });
