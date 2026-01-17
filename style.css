@@ -574,3 +574,13 @@ body::after {
 .lyrics-btn:hover {
   opacity: 0.8;
 }
+
+.tracks {
+  display: none;
+  margin-top: 10px;
+  flex-direction: column;
+  gap: 6px;
+}
+.tracks.active {
+  display: flex;
+}
