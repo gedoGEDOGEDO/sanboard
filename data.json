@@ -1,30 +1,39 @@
 {
-  "currentWeek": 1,
+  "currentWeek": 2,
 
   "singles": [
     {
       "artist": "lunaa",
       "title": "decay",
-      "sales": 55000,
-      "weeks": 6,
+      "sales": 51000,
+      "weeks": 7,
       "peak": 1,
-      "weeksAt1": 6,
+      "weeksAt1": 7,
       "cover": "covers/decay.png"
     },
     {
       "artist": "bitterslay",
       "title": "after hours",
-      "sales": 40000,
-      "weeks": 8,
+      "sales": 37000,
+      "weeks": 9,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/afterhours.jpg"
     },
     {
+      "artist": "lunaa",
+      "title": "miss u",
+      "sales": 33000,
+      "weeks": 10,
+      "peak": 1,
+      "weeksAt1": 5,
+      "cover": "covers/missu.png"
+    },
+    {
       "artist": "bitterslay",
       "title": "endersly",
-      "sales": 32000,
-      "weeks": 10,
+      "sales": 30000,
+      "weeks": 11,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/endersly.png"
@@ -32,62 +41,53 @@
     {
       "artist": "bitterslay",
       "title": "crash",
-      "sales": 27000,
-      "weeks": 20,
+      "sales": 25000,
+      "weeks": 21,
       "peak": 1,
       "weeksAt1": 7,
       "cover": "covers/crash.jpg"
     },
     {
-      "artist": "B'HAD feat. Dam'",
-      "title": "FACE UP",
-      "sales": 1000,
-      "weeks": 18,
-      "peak": 6,
-      "weeksAt1": 0,
-      "cover": "covers/faceup.jpg"
-    },
-    {
-      "artist": "lunaa",
-      "title": "miss u",
-      "sales": 35000,
-      "weeks": 9,
-      "peak": 1,
-      "weeksAt1": 5,
-      "cover": "covers/missu.png"
-    },
-    {
       "artist": "lunaa",
       "title": "HURT ME",
-      "sales": 30000,
-      "weeks": 14,
+      "sales": 27000,
+      "weeks": 15,
       "peak": 1,
       "weeksAt1": 5,
       "cover": "covers/hurtme.png"
     },
     {
+      "artist": "suicide.idol",
+      "title": "north",
+      "sales": 11000,
+      "weeks": 1,
+      "peak": 7,
+      "weeksAt1": 0,
+      "cover": "covers/north.png"
+    },
+    {
+      "artist": "Lil Million",
+      "title": "Dawg Ass",
+      "sales": 6500,
+      "weeks": 1,
+      "peak": 8,
+      "weeksAt1": 0,
+      "cover": "covers/dawgass.jpg"
+    },
+    {
       "artist": "2SMILEY",
       "title": "YOUR NAME",
-      "sales": 8000,
-      "weeks": 30,
+      "sales": 7400,
+      "weeks": 31,
       "peak": 1,
       "weeksAt1": 8,
       "cover": "covers/yourname.jpg"
     },
     {
-      "artist": "Lil Million",
-      "title": "Humble",
-      "sales": 2000,
-      "weeks": 1,
-      "peak": 9,
-      "weeksAt1": 0,
-      "cover": "covers/humble.jpg"
-    },
-    {
       "artist": "Lume",
       "title": "Two Years",
-      "sales": 4000,
-      "weeks": 2,
+      "sales": 3800,
+      "weeks": 3,
       "peak": 8,
       "weeksAt1": 0,
       "cover": "covers/twoyears.jpg"
@@ -367,5 +367,6 @@
     }
   ]
 }
+
 
 
