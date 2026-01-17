@@ -68,15 +68,18 @@ fetch("data.json")
           <div class="artist-info">
             <div class="artist-name">${artist.name}</div>
             <div class="artist-rank">#${place} в топе артистов</div>
-            <div class="artist-listeners">${artist.listeners} слушателей / мес</div>
+            <div class="artist-listeners">${artist.listeners.toLocaleString()} слушателей / мес</div>
           </div>
         `;
-          // 🔥 Добавляем переход на страницу артиста
+
+        // 🔥 Добавляем переход на страницу артиста, если указан
         if (artist.page) {
+          card.style.cursor = "pointer";
           card.addEventListener("click", () => {
             window.location.href = artist.page;
           });
         }
+
         artistsList.appendChild(card);
       });
     }
@@ -84,35 +87,61 @@ fetch("data.json")
     /* =========================
        СТРАНИЦА АРТИСТА
        ========================= */
-    
+
     const artistPage = document.querySelector(".artist-page");
-    
+
     if (artistPage) {
-      const artistName = artistPage.dataset.artist;
-    
-      fetch("../data.json")
-        .then(res => res.json())
-        .then(data => {
-          const artist = data.artists.find(a => a.name === artistName);
-          if (!artist) return;
-    
-          document.getElementById("artist-listeners").textContent =
-            artist.listeners.toLocaleString() + " listeners / month";
-    
-          document.getElementById("artist-social").href = artist.social;
-        });
-    
-      // Tabs
+      const artistName = artistPage.dataset.artist.toLowerCase();
+
+      // На странице артиста подгружаем слушателей и соц. ссылку
+      const artistData = data.artists.find(a => a.name.toLowerCase() === artistName);
+      if (artistData) {
+        const listenersEl = document.getElementById("artist-listeners");
+        if (listenersEl) {
+          listenersEl.textContent = artistData.listeners.toLocaleString() + " слушателей / мес";
+        }
+        const socialEl = document.getElementById("artist-social");
+        if (socialEl && artistData.social) {
+          socialEl.href = artistData.social;
+        }
+        // Автоматически подставляем аватар
+        const avatarEl = document.querySelector(".artist-photo img");
+        if (avatarEl) {
+          avatarEl.src = artistData.avatar;
+        }
+      }
+
+      // ======= Табы Альбомы / Синглы =======
       document.querySelectorAll(".tab-btn").forEach(btn => {
         btn.addEventListener("click", () => {
+          const targetTab = btn.dataset.tab;
+
+          // Скрываем все табы
+          document.querySelectorAll(".tab-content").forEach(tab => tab.classList.remove("active"));
           document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
-          document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
-    
+
+          // Показываем выбранный таб
+          document.getElementById(targetTab).classList.add("active");
           btn.classList.add("active");
-          document.getElementById(btn.dataset.tab).classList.add("active");
         });
       });
+
+      // ======= Раскрытие проектов =======
+      document.querySelectorAll(".project-header").forEach(header => {
+        header.addEventListener("click", () => {
+          const tracks = header.nextElementSibling;
+          if (tracks) tracks.classList.toggle("active");
+        });
+      });
+
+      // ======= Кнопки lyrics =======
+      document.querySelectorAll(".lyrics-btn").forEach(btn => {
+        btn.addEventListener("click", e => {
+          e.stopPropagation(); // чтобы клик по треку не раскрыл его
+          alert("Здесь будет текст песни");
+        });
+      });
+
     }
 
-    
   });
