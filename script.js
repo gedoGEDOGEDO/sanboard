@@ -81,5 +81,38 @@ fetch("data.json")
       });
     }
 
-  });
+    /* =========================
+       СТРАНИЦА АРТИСТА
+       ========================= */
+    
+    const artistPage = document.querySelector(".artist-page");
+    
+    if (artistPage) {
+      const artistName = artistPage.dataset.artist;
+    
+      fetch("../data.json")
+        .then(res => res.json())
+        .then(data => {
+          const artist = data.artists.find(a => a.name === artistName);
+          if (!artist) return;
+    
+          document.getElementById("artist-listeners").textContent =
+            artist.listeners.toLocaleString() + " listeners / month";
+    
+          document.getElementById("artist-social").href = artist.social;
+        });
+    
+      // Tabs
+      document.querySelectorAll(".tab-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+          document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+    
+          btn.classList.add("active");
+          document.getElementById(btn.dataset.tab).classList.add("active");
+        });
+      });
+    }
 
+    
+  });
