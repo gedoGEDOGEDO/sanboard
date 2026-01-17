@@ -384,3 +384,12 @@ body::after {
 .artist-profile-link:hover {
   text-decoration: underline;
 }
+
+.artist-card {
+  cursor: pointer; /* уже есть у тебя, но важно проверить */
+  transition: 0.3s ease;
+}
+.artist-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 20px 50px rgba(241,196,15,0.2);
+}
