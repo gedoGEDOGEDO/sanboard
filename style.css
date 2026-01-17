@@ -559,6 +559,12 @@ body::after {
   border-radius: 12px;
   padding: 10px 14px;
   cursor: default;
+  border: 1px solid #333; /* добавили рамку */
+  transition: 0.3s;
+}
+
+.track:hover {
+  border-color: #f1c40f; /* подсветка при наведении */
 }
 
 .track span {
@@ -579,8 +585,10 @@ body::after {
   display: none;
   margin-top: 10px;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px; /* чуть больше расстояние между треками */
+  padding-left: 100px; /* отступ под обложку проекта */
 }
+
 .tracks.active {
   display: flex;
 }
