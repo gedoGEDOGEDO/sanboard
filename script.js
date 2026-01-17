@@ -71,9 +71,15 @@ fetch("data.json")
             <div class="artist-listeners">${artist.listeners} слушателей / мес</div>
           </div>
         `;
-
+          // 🔥 Добавляем переход на страницу артиста
+        if (artist.page) {
+          card.addEventListener("click", () => {
+            window.location.href = artist.page;
+          });
+        }
         artistsList.appendChild(card);
       });
     }
 
   });
+
