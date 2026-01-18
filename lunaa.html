@@ -34,11 +34,20 @@
 
 <!-- 🎛 Переключатель -->
 <div class="artist-tabs">
-  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn active" data-tab="about">About</button>
+  <button class="tab-btn" data-tab="albums">Albums</button>
   <button class="tab-btn" data-tab="singles">Singles</button>
 </div>
 
-<!-- 📀 АЛЬБОМЫ (ТЫ ЗАПОЛНЯЕШЬ) -->
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+    Lunaa — независимая артистка из ...
+    Её музыка сочетает эмбиент и меланхоличный вокал.
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
 <section class="tab-content active" id="albums">
 
   <div class="project">
@@ -53,32 +62,44 @@
         <span>1.</span>
         <span>505</span>
         <span>3:00</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
       <div class="track">
         <span>2</span>
         <span>hamptons</span>
         <span>2:35</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
       <div class="track">
         <span>3</span>
         <span>motel</span>
         <span>3:43</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
       <div class="track">
         <span>4</span>
         <span>lie.</span>
         <span>3:34</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
     </div>
   </div>
 
 </section>
 
-<!-- 🎵 СИНГЛЫ -->
+<!-- СИНГЛЫ -->
 <section class="tab-content" id="singles">
   
   <div class="project">
@@ -92,7 +113,10 @@
         <span>1.</span>
         <span>HURT ME</span>
         <span>2:09</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
     </div>
   </div>
@@ -108,7 +132,10 @@
         <span>1.</span>
         <span>miss u</span>
         <span>3:18</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
     </div>
   </div>
@@ -124,12 +151,22 @@
         <span>1.</span>
         <span>decay</span>
         <span>2:29</span>
-        <span class="lyrics-btn">lyrics</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
       </div>
     </div>
   </div>
   
 </section>
 
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
 </body>
 </html>
