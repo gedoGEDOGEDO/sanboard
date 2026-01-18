@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>2SMILEY</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="2SMILEY">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/2smiley.jpg" alt="2SMILEY">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">2SMILEY</h1>
+    <a href="https://tagger.su/2smiley" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+    aaaa
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/thm.jpg">
+      <span class="project-title">Too High Manners</span>
+      <span class="project-date">05.14.2024</span>
+    </div>
+
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>505</span>
+        <span>3:00</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+  
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/hurtme.png">
+      <span class="project-title">HURT ME</span>
+      <span class="project-date">09.27.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>HURT ME</span>
+        <span>2:09</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
