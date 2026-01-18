@@ -381,7 +381,7 @@
     },
     {
       "name": "inferno",
-      "avatar": "covers/artists/inferno.png",
+      "avatar": "covers/artists/inferno.jpg",
       "listeners": 9600000
     },
     {
@@ -431,6 +431,7 @@
     }
   ] 
 }
+
 
 
 
