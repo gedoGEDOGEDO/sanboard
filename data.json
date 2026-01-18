@@ -384,7 +384,7 @@
     {
       "name": "inferno",
       "avatar": "covers/artists/inferno.jpg",
-      "listeners": 9600000
+      "listeners": 9600000,
       "page": "inferno.html",
       "social": "https://tagger.su/geek"
     },
@@ -435,6 +435,7 @@
     }
   ] 
 }
+
 
 
 
