@@ -391,7 +391,9 @@
     {
       "name": "dumpboii",
       "avatar": "covers/artists/dumpboii.jpg",
-      "listeners": 7400000
+      "listeners": 7400000,
+      "page": "dumpboii.html",
+      "social": "https://tagger.su/dumpboi"
     },
     {
       "name": "Shawn Wayne",
@@ -428,7 +430,9 @@
     {
       "name": "Lil Million",
       "avatar": "covers/artists/lilmillion.jpg",
-      "listeners": 1850000
+      "listeners": 1850000,
+      "page": "lilmillion.html",
+      "social": "https://tagger.su/lilmillion"
     },
     {
       "name": "watson",
@@ -437,6 +441,7 @@
     }
   ] 
 }
+
 
 
 
