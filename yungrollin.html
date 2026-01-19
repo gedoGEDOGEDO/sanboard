@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Yung Rollin</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body class="artist-page" data-artist="Yung Rollin">
+
+<!-- 🔙 Назад -->
+<a href="artists.html" class="back-btn">←</a>
+
+<!-- 👤 Хедер артиста -->
+<section class="artist-header">
+
+  <div class="artist-photo">
+    <img src="covers/artists/yungrollin.jpg" alt="Yung Rollin">
+  </div>
+
+  <div class="artist-main">
+    <h1 class="artist-name">Yung Rollin</h1>
+    <a href="https://tagger.su/yungrollin" class="artist-social" id="artist-social">Tagger</a>
+  </div>
+
+  <div class="artist-listeners" id="artist-listeners">
+    <!-- подгрузится из data.json -->
+  </div>
+
+</section>
+
+<hr>
+
+<!-- 🎛 Переключатель -->
+<div class="artist-tabs">
+  <button class="tab-btn active" data-tab="albums">Albums</button>
+  <button class="tab-btn" data-tab="singles">Singles</button>
+  <button class="tab-btn" data-tab="about">About</button>
+</div>
+
+  <!-- БИО -->
+<section class="tab-content" id="about">
+  <div class="about-box">
+  <p><strong>Yung Rollin</strong> (Настоящее имя — Оуши Уилсон) — американский рэпер, исполнитель и автор песен. Работает в жанрах рэп, хип-хоп и трэп.</p> 
+
+  <p><strong>Биография</strong><br>
+  Родился 22 Ноября 2003 года в Атланте (Джорджия, США).</p>
+
+  <p><strong>Награды</strong><br>
+    Лучший рэп альбом 2024 - THE GOAT<br>
+    Лучшая рэп песня 2024 - Where I Been</p>
+  </div>
+</section>
+  
+<!-- АЛЬБОМЫ -->
+<section class="tab-content active" id="albums">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/yungrollinsg.png">
+      <span class="project-title">Street Gossip</span>
+      <span class="project-date">06.11.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Stand On Business</span>
+        <span>2:05</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>2.</span>
+        <span>Jacking Beats</span>
+        <span>2:12</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>3.</span>
+        <span>Say Jack</span>
+        <span>1:32</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>4.</span>
+        <span>Excuse Me</span>
+        <span>2:18</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>5.</span>
+        <span>A Milli</span>
+        <span>2:24</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>6.</span>
+        <span>Notice</span>
+        <span>2:30</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/thegoat.jpg">
+      <span class="project-title">THE GOAT</span>
+      <span class="project-date">07.18.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>PMG</span>
+        <span>2:15</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>2.</span>
+        <span>Over Stepping</span>
+        <span>2:30</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>3.</span>
+        <span>You Know (feat. 2SMILEY)</span>
+        <span>2:45</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>4.</span>
+        <span>1Trey 7 (GSide diss)</span>
+        <span>2:10</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>5.</span>
+        <span>Bussin</span>
+        <span>2:28</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>6.</span>
+        <span>Secrets</span>
+        <span>2:20</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>7.</span>
+        <span>Like it (feat. Inferno)</span>
+        <span>2:35</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/rvsw.jpg">
+      <span class="project-title">Rollin vs Waqo</span>
+      <span class="project-date">11.21.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Bad Boy (Yung Rollin solo)</span>
+        <span>1:52</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>2.</span>
+        <span>Party On My Block (Yung Rollin solo)</span>
+        <span>1:33</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>3.</span>
+        <span>CHOLO (feat. Big Waqo)</span>
+        <span>3:12</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>4.</span>
+        <span>Crawl (feat. Yung Rollin)</span>
+        <span>2:17</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>5.</span>
+        <span>2 for 1 (Big Waqo solo)</span>
+        <span>2:22</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>6.</span>
+        <span>Press The Pressure (Big Waqo solo)</span>
+        <span>3:04</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/ltwr.jpg">
+      <span class="project-title">Let The World Rollin</span>
+      <span class="project-date">12.16.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Crook Move (intro)</span>
+        <span>1:38</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>2.</span>
+        <span>Fully Loaded</span>
+        <span>2:05</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>3.</span>
+        <span>Yung Ritter (feat. inferno)</span>
+        <span>2:13</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>4.</span>
+        <span>Somebody (Crook Love)</span>
+        <span>1:55</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+      <div class="track">
+        <span>5.</span>
+        <span>This 4 & inferno (feat. Big Waqo)</span>
+        <span>2:29</span>
+        <span class="lyrics-btn"
+              data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- СИНГЛЫ -->
+<section class="tab-content" id="singles">
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/yungrollinsj.png">
+      <span class="project-title">Say Jack</span>
+      <span class="project-date">06.04.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Say Jack</span>
+        <span>1:32</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/yungrollinwib.png">
+      <span class="project-title">Where I Been</span>
+      <span class="project-date">06.29.2024</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Where I Been</span>
+        <span>1:16</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-header">
+      <img src="covers/cards/yungrollindf.png">
+      <span class="project-title">Don’t Forget (feat. DaBaby)</span>
+      <span class="project-date">04.04.2025</span>
+    </div>
+    <div class="tracks">
+      <div class="track">
+        <span>1.</span>
+        <span>Don’t Forget (feat. DaBaby)</span>
+        <span>2:18</span>
+        <span class="lyrics-btn" data-lyrics="Clear">
+          lyrics
+        </span>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<div class="lyrics-modal" id="lyrics-modal">
+  <div class="lyrics-box">
+    <span class="lyrics-close" id="lyrics-close">×</span>
+    <pre class="lyrics-text" id="lyrics-text"></pre>
+  </div>
+</div>
+  
+</body>
+</html>
