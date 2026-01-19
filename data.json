@@ -371,76 +371,77 @@
       "name": "lunaa",
       "avatar": "covers/artists/lunaa.png",
       "listeners": 20300000,
-      "page": "lunaa.html",
-      "social": "https://tagger.su/lunaa"
+      "page": "lunaa.html"
     },
     {
       "name": "2SMILEY",
       "avatar": "covers/artists/2smiley.jpg",
       "listeners": 13800000,
-      "page": "2SMILEY.html",
-      "social": "https://tagger.su/2smiley"
+      "page": "2SMILEY.html"
     },
     {
       "name": "inferno",
       "avatar": "covers/artists/inferno.jpg",
       "listeners": 9600000,
-      "page": "inferno.html",
-      "social": "https://tagger.su/geek"
+      "page": "inferno.html"
     },
     {
       "name": "dumpboii",
       "avatar": "covers/artists/dumpboii.jpg",
       "listeners": 7400000,
-      "page": "dumpboii.html",
-      "social": "https://tagger.su/dumpboi"
+      "page": "dumpboii.html"
     },
     {
       "name": "Shawn Wayne",
       "avatar": "covers/artists/shawnwayne.png",
       "listeners": 6800000,
-      "page": "shawnwayne.html",
-      "social": "https://tagger.su/shawnwayne"
+      "page": "shawnwayne.html"
     },
     {
       "name": "Yung Rollin",
       "avatar": "covers/artists/yungrollin.jpg",
-      "listeners": 5900000
+      "listeners": 5900000,
+      "page": "yungrollin.html"
     },
     {
       "name": "bitterslay",
       "avatar": "covers/artists/bitterslay.jpg",
-      "listeners": 5200000
+      "listeners": 5200000,
+      "page": "bitterslay.html"
     },
     {
       "name": "Lil Pri Osama",
       "avatar": "covers/artists/lilpriosama.jpg",
-      "listeners": 4400000
+      "listeners": 4400000,
+      "page": "lilpriosama.html"
     },
     {
       "name": "Big Waqo",
       "avatar": "covers/artists/bigwaqo.png",
-      "listeners": 3100000
+      "listeners": 3100000,
+      "page": "bigwaqo.html"
     },
     {
       "name": "suicide.idol",
       "avatar": "covers/artists/suicideidol.png",
-      "listeners": 2100000
+      "listeners": 2100000,
+      "page": "suicide.idol.html"
     },
     {
       "name": "Lil Million",
       "avatar": "covers/artists/lilmillion.jpg",
       "listeners": 1850000,
-      "page": "lilmillion.html",
-      "social": "https://tagger.su/lilmillion"
+      "page": "lilmillion.html"
     },
     {
       "name": "watson",
       "avatar": "covers/artists/watson.jpg",
-      "listeners": 1600000
+      "listeners": 1600000,
+      "page": "watson.html"
     }
   ] 
 }
+
 
 
 
