@@ -93,22 +93,42 @@
       "cover": "covers/dawgass.jpg"
     }
   ],
+{
+  "currentWeek": 3,
 
   "albums": [
     {
+      "artist": "praisecapulet",
+      "title": "The Capulet Code",
+      "sales": 88000,
+      "weeks": 1,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/cards/praisecapulettcc.jpg"
+    },
+    {
       "artist": "lunaa",
       "title": "error",
-      "sales": 36000,
-      "weeks": 2,
+      "sales": 38500,
+      "weeks": 3,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/error.jpg"
     },
     {
+      "artist": "Shawn Wayne",
+      "title": "depth",
+      "sales": 30500,
+      "weeks": 38,
+      "peak": 1,
+      "weeksAt1": 11,
+      "cover": "covers/depth.jpg"
+    },
+    {
       "artist": "2SMILEY",
       "title": "Hellish Core",
-      "sales": 30000,
-      "weeks": 23,
+      "sales": 32500,
+      "weeks": 24,
       "peak": 1,
       "weeksAt1": 7,
       "cover": "covers/hellishcore.jpg"
@@ -116,8 +136,8 @@
     {
       "artist": "inferno",
       "title": "Rough November, Depressed December",
-      "sales": 26000,
-      "weeks": 36,
+      "sales": 28500,
+      "weeks": 37,
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/rndd.jpg"
@@ -125,26 +145,17 @@
     {
       "artist": "2SMILEY",
       "title": "STUCK IN THE CENTER",
-      "sales": 22000,
-      "weeks": 46,
+      "sales": 24500,
+      "weeks": 47,
       "peak": 1,
       "weeksAt1": 8,
       "cover": "covers/sitc.jpg"
     },
     {
-      "artist": "Shawn Wayne",
-      "title": "depth",
-      "sales": 28000,
-      "weeks": 37,
-      "peak": 1,
-      "weeksAt1": 11,
-      "cover": "covers/depth.jpg"
-    },
-    {
       "artist": "Lil Pri Osama, Timmy2Turnt, Lil G Ivy, Chief Dub 5900",
       "title": "FOREVER MOODAWAY",
-      "sales": 19000,
-      "weeks": 36,
+      "sales": 21500,
+      "weeks": 37,
       "peak": 4,
       "weeksAt1": 0,
       "cover": "covers/forevermoodaway.jpg"
@@ -152,17 +163,26 @@
     {
       "artist": "dumpboii",
       "title": "I'M STAR (operation)",
-      "sales": 17000,
-      "weeks": 47,
+      "sales": 19000,
+      "weeks": 48,
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/imso.jpg"
     },
     {
+      "artist": "Big Waqo",
+      "title": "Giant Swagg",
+      "sales": 16500,
+      "weeks": 44,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/giantswagg.jpg"
+    },
+    {
       "artist": "Yung Rollin",
       "title": "THE GOAT",
-      "sales": 15500,
-      "weeks": 68,
+      "sales": 17000,
+      "weeks": 69,
       "peak": 2,
       "weeksAt1": 0,
       "cover": "covers/thegoat.jpg"
@@ -170,98 +190,89 @@
     {
       "artist": "Yung Rollin",
       "title": "Let The World Rollin",
-      "sales": 13500,
-      "weeks": 72,
+      "sales": 15000,
+      "weeks": 73,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/ltwr.jpg"
     },
     {
-      "artist": "Shawn Wayne",
-      "title": "Boat That Sailed At Sunset",
-      "sales": 12000,
-      "weeks": 74,
-      "peak": 3,
-      "weeksAt1": 0,
-      "cover": "covers/btsas.jpg"
-    },
-    {
-      "artist": "Big Waqo",
-      "title": "Giant Swagg",
-      "sales": 14500,
-      "weeks": 43,
-      "peak": 3,
-      "weeksAt1": 0,
-      "cover": "covers/giantswagg.jpg"
-    },
-    {
       "artist": "inferno",
       "title": "hyperion act 2",
-      "sales": 14000,
-      "weeks": 71,
+      "sales": 15500,
+      "weeks": 72,
       "peak": 2,
       "weeksAt1": 0,
       "cover": "covers/HYPERION2.jpg"
     },
     {
       "artist": "Shawn Wayne",
-      "title": "Hydration We Need",
-      "sales": 5200,
-      "weeks": 68,
-      "peak": 1,
-      "weeksAt1": 1,
-      "cover": "covers/hwn.jpg"
+      "title": "Boat That Sailed At Sunset",
+      "sales": 13500,
+      "weeks": 75,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/btsas.jpg"
     },
     {
       "artist": "dumpboii",
       "title": "take new cassette",
-      "sales": 8500,
-      "weeks": 72,
+      "sales": 9800,
+      "weeks": 73,
       "peak": 1,
       "weeksAt1": 0,
       "cover": "covers/tnc.jpg"
     },
     {
-      "artist": "dumpboii",
-      "title": "dead files 2.0",
-      "sales": 6000,
-      "weeks": 66,
-      "peak": 1,
-      "weeksAt1": 1,
-      "cover": "covers/df2.jpg"
-    },
-    {
       "artist": "inferno",
       "title": "The Struggle For Power",
-      "sales": 7200,
-      "weeks": 66,
+      "sales": 8600,
+      "weeks": 67,
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/tsfp.jpg"
     },
     {
-      "artist": "watson",
-      "title": "paradise",
-      "sales": 6800,
-      "weeks": 44,
-      "peak": 3,
-      "weeksAt1": 0,
-      "cover": "covers/paradise.jpg"
+      "artist": "dumpboii",
+      "title": "dead files 2.0",
+      "sales": 7200,
+      "weeks": 67,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/df2.jpg"
     },
     {
       "artist": "JNuk",
       "title": "King Opp",
-      "sales": 9800,
-      "weeks": 38,
+      "sales": 11200,
+      "weeks": 39,
       "peak": 3,
       "weeksAt1": 0,
       "cover": "covers/kingopp.jpg"
     },
     {
+      "artist": "watson",
+      "title": "paradise",
+      "sales": 7900,
+      "weeks": 45,
+      "peak": 3,
+      "weeksAt1": 0,
+      "cover": "covers/paradise.jpg"
+    },
+    {
+      "artist": "Lil Pri Osama",
+      "title": "Money Power Respect",
+      "sales": 10500,
+      "weeks": 47,
+      "peak": 1,
+      "weeksAt1": 1,
+      "cover": "covers/mpr.jpg"
+    },
+    {
       "artist": "2SMILEY",
       "title": "Too High Manners II",
-      "sales": 4800,
-      "weeks": 64,
+      "sales": 5600,
+      "weeks": 65,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/thm2.jpg"
@@ -269,44 +280,17 @@
     {
       "artist": "2SMILEY",
       "title": "LIVE AND DIE IN LS",
-      "sales": 3100,
-      "weeks": 64,
+      "sales": 3600,
+      "weeks": 65,
       "peak": 1,
       "weeksAt1": 3,
       "cover": "covers/ladis.jpg"
     },
     {
-      "artist": "2SMILEY",
-      "title": "Too high manners",
-      "sales": 1800,
-      "weeks": 69,
-      "peak": 1,
-      "weeksAt1": 2,
-      "cover": "covers/thm.jpg"
-    },
-    {
-      "artist": "Big Waqo",
-      "title": "No Body, No Crime",
-      "sales": 1900,
-      "weeks": 64,
-      "peak": 5,
-      "weeksAt1": 0,
-      "cover": "covers/nbnc.jpg"
-    },
-    {
-      "artist": "dumpboii",
-      "title": "taliband swagg",
-      "sales": 1700,
-      "weeks": 64,
-      "peak": 2,
-      "weeksAt1": 0,
-      "cover": "covers/tswagg.jpg"
-    },
-    {
       "artist": "inferno",
       "title": "HYPERION",
-      "sales": 3600,
-      "weeks": 65,
+      "sales": 4200,
+      "weeks": 66,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/HYPERION.jpg"
@@ -314,17 +298,44 @@
     {
       "artist": "inferno",
       "title": "runaway",
-      "sales": 2700,
-      "weeks": 65,
+      "sales": 3300,
+      "weeks": 66,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/runaway.jpg"
     },
     {
+      "artist": "Big Waqo",
+      "title": "No Body, No Crime",
+      "sales": 2300,
+      "weeks": 65,
+      "peak": 5,
+      "weeksAt1": 0,
+      "cover": "covers/nbnc.jpg"
+    },
+    {
+      "artist": "dumpboii",
+      "title": "taliband swagg",
+      "sales": 2100,
+      "weeks": 65,
+      "peak": 2,
+      "weeksAt1": 0,
+      "cover": "covers/tswagg.jpg"
+    },
+    {
+      "artist": "2SMILEY",
+      "title": "Too high manners",
+      "sales": 2200,
+      "weeks": 70,
+      "peak": 1,
+      "weeksAt1": 2,
+      "cover": "covers/thm.jpg"
+    },
+    {
       "artist": "2SMILEY",
       "title": "Lost In Closed Case",
-      "sales": 900,
-      "weeks": 70,
+      "sales": 1100,
+      "weeks": 71,
       "peak": 2,
       "weeksAt1": 0,
       "cover": "covers/licc.jpg"
@@ -332,26 +343,17 @@
     {
       "artist": "16am",
       "title": "Esprit de Sarcelles",
-      "sales": 950,
-      "weeks": 64,
+      "sales": 1150,
+      "weeks": 65,
       "peak": 1,
       "weeksAt1": 1,
       "cover": "covers/eds.jpg"
     },
     {
       "artist": "Lil Pri Osama",
-      "title": "Money Power Respect",
-      "sales": 9200,
-      "weeks": 46,
-      "peak": 1,
-      "weeksAt1": 1,
-      "cover": "covers/mpr.jpg"
-    },
-    {
-      "artist": "Lil Pri Osama",
       "title": "MR DISRESPECTFUL",
-      "sales": 4100,
-      "weeks": 44,
+      "sales": 4800,
+      "weeks": 45,
       "peak": 2,
       "weeksAt1": 0,
       "cover": "covers/mrdisrespectful.jpg"
@@ -359,107 +361,91 @@
     {
       "artist": "Yung Rollin, Big Waqo",
       "title": "Rollin vs Waqo",
-      "sales": 4400,
-      "weeks": 66,
+      "sales": 5200,
+      "weeks": 67,
       "peak": 1,
       "weeksAt1": 2,
       "cover": "covers/rvsw.jpg"
     }
   ],
-      "artists": [
+       "artists": [
     {
       "name": "lunaa",
       "avatar": "covers/artists/lunaa.png",
-      "listeners": 20300000,
+      "listeners": 22100000,
       "page": "lunaa.html"
     },
     {
       "name": "2SMILEY",
       "avatar": "covers/artists/2smiley.jpg",
-      "listeners": 13800000,
+      "listeners": 14500000,
       "page": "2SMILEY.html"
     },
     {
       "name": "inferno",
       "avatar": "covers/artists/inferno.jpg",
-      "listeners": 9600000,
+      "listeners": 10100000,
       "page": "inferno.html"
     },
     {
       "name": "dumpboii",
       "avatar": "covers/artists/dumpboii.jpg",
-      "listeners": 7400000,
+      "listeners": 7900000,
       "page": "dumpboii.html"
     },
     {
       "name": "Shawn Wayne",
       "avatar": "covers/artists/shawnwayne.png",
-      "listeners": 6800000,
+      "listeners": 7200000,
       "page": "shawnwayne.html"
     },
     {
       "name": "Yung Rollin",
       "avatar": "covers/artists/yungrollin.jpg",
-      "listeners": 5900000,
+      "listeners": 6300000,
       "page": "yungrollin.html"
     },
     {
       "name": "bitterslay",
       "avatar": "covers/artists/bitterslay.jpg",
-      "listeners": 5200000,
+      "listeners": 6100000,
       "page": "bitterslay.html"
     },
     {
       "name": "Lil Pri Osama",
       "avatar": "covers/artists/lilpriosama.jpg",
-      "listeners": 4400000,
+      "listeners": 4700000,
       "page": "lilpriosama.html"
     },
     {
       "name": "Big Waqo",
       "avatar": "covers/artists/bigwaqo.png",
-      "listeners": 3100000,
+      "listeners": 3300000,
       "page": "bigwaqo.html"
     },
     {
       "name": "suicide.idol",
       "avatar": "covers/artists/suicideidol.png",
-      "listeners": 2100000,
+      "listeners": 5200000,
       "page": "suicide.idol.html"
     },
     {
       "name": "Lil Million",
       "avatar": "covers/artists/lilmillion.jpg",
-      "listeners": 1850000,
+      "listeners": 2150000,
       "page": "lilmillion.html"
     },
     {
       "name": "watson",
       "avatar": "covers/artists/watson.jpg",
-      "listeners": 1600000,
+      "listeners": 1750000,
       "page": "watson.html"
+    },
+    {
+      "name": "praisecapulet",
+      "avatar": "covers/artists/praisecapulet.png",
+      "listeners": 2800000,
+      "page": "praisecapulet.html"
     }
-  ] 
+  ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
